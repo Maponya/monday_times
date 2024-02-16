@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- author:Maponya DA/ date:2022/ email:maponyada(at)gmail.com  -->
+<html>
+<head>
+<title>Monday Times</title>
+<meta name="keywords" content="monday times,webtech,html5 tutorial,html5 table,web design,maponya da" >
+<meta name="description" content="This website was written as assignment to demonstrate thorough understanding of HTML5 and CSS3 markup languages" >
+<style>
+html {font-family:Times New Roman; margin-left:20%; margin-right:20%;}
+h1 {background-color:black; color:white;padding:20px;}
+section {background-color:lightgray;padding:10px;}
+article {background-color:white; padding:20px;}
+ul,li,a {display:inline; text-decoration:none; padding:3px}
+table{width:100%; margin-left:auto;margin-right:auto;}
+fieldset#secone>legend{background-color: rgb(140,136,150);}
+fieldset#sectwo>legend{background-color: rgba(65,105,129,0.7);}
+fieldset#sectwo {background-color:rgb(183,213,196,0.6);}
+fieldset#secone {background-color:rgb(228,226,233,0.5);}
+td.yes{border:1px solid gray;}
+span {color:red;}
+footer {background-color:black; color:white; padding:10px;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Monday Times Durban</h1>
+<ul>
+<li><a href="/monday_times/news.html">News</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="table.html">Schedule</a></li>
+<li><a href="form.html">Feedback</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+<br><br>
+<section>
+<h3>Form Section</h3>
+<article>
+<h3>Form Article</h3>
+<p>
+<form>
+<fieldset id="secone">
+<legend>section one</legend>
+<table>
+<tr><td>Name<span>*</span></td><td><input type="text"></td></tr>
+<tr><td>Street address</td><td><input type="text"></td></tr>
+<tr><td>City</td><td><input type="text"></td></tr>
+<tr><td>State</td><td><input size="2" type="text"></td></tr>
+<tr><td>Postal code</td><td><input size="15" type="text"></td></tr>
+<tr><td>Phone number</td><td><input type="tel"></td></tr>
+<tr><td>E-mail<span>*</span></td><td><input type="email"></td></tr>
+<tr><td>Where did you<br>hear about us?</td><td><select><option>one</option><option>two</option></select></td></tr>
+<tr><td>What's your favorite Red <br> Ball special dish?</td><td><input type="text"></td></tr>
+<tr><td>How many times do you<br> dine out per month?</td><td><input type="number" value="1" step="1" min="1" max="10"></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td>Add me to your newslatter<br>for great specials</td><td><input type="checkbox" checked></td></tr>
+</table>
+</fieldset>
+</form>
+<br>
+<form>
+<fieldset id="sectwo">
+<legend>section two</legend>
+<table>
+<tr><td>Date of visit</td><td><input type="datetime-local" /></td></tr>
+<tr><td>Order type</td><td><select><option>red</option><option>blue</option></select></td></tr>
+<tr><td>Was your service friendly?</td><td class="yes"><label>yes<input type="radio" /></label><label>no<input type="radio" /></label></td></tr>
+<tr><td>Was your order correct?</td><td class="yes"><label>yes<input type="radio" /></label><label>no<input type="radio" /></label></td></tr>
+<tr><td>Was your food hot?</td><td class="yes"><label>yes<input type="radio" /></label><label>no<input type="radio" /></label></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td>Rate your overall service<br>(0 = poor,10 = great)</td><td>0<input type="range" value="5" step="2" min="1" mix="10" />10</td></tr>
+</table>
+<p>Tell us about your experience!</p>
+<textarea rows="6" cols="40"></textarea>
+<br>
+<br>
+</fieldset>
+</form> </p>
+
+<br>
+
+</article>
+</section>
+<br>
+<footer>&copy; 2022 Monday Times. All rights reserved. </footer>
+</body>
+</html>
